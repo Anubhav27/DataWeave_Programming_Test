@@ -15,7 +15,7 @@ root = tree.xpath('//div[@class="details"]')
 for d in root:
     for url in d.xpath('//a[@class="name"]'):
         print url.text
-        print url["href"]
+
         #print url['text']
 
 

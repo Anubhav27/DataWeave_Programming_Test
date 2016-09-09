@@ -1,3 +1,15 @@
+"""
+
+This is Question 3 of Assignment to shorten Url
+
+Solution :
+
+The solution takes input from file and from console and shorten the Url based on Algorithm implemented below.
+
+file url_list.txt contains list of links to be shorten
+after it shortens the url it add it to url_shortening_dict dictionary.
+"""
+
 import string
 import binascii
 import binhex

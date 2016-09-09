@@ -1,3 +1,9 @@
+"""
+
+This is question 4 of the programming assignment to scrape Url,Thumbail,title and price from the Urls and store the results in
+the Product_list.txt
+"""
+
 from lxml import html
 import requests
 import json

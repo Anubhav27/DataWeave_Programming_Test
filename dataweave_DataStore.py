@@ -1,3 +1,22 @@
+"""
+
+This is Question 1 of the assignment
+
+I have created a Key Value Data Store which can perform following operation:
+
+Add(key,value)
+Get(key)
+delete(key)
+
+Solution:
+
+Here in the solution i tried to create a DataStore class and where the number of versions for a key is taken from "datastore_configuration" file
+and based on number of configuration for values of key values are appended to a list and if new value to be added exceeds this version it will be discarded.
+
+
+"""
+
+
 class DataStore:
     dataStore={}
     l = []
@@ -44,6 +63,7 @@ ds = DataStore(version)
 ds.add(1,1)
 ds.add(1,2)
 ds.add(1,3)
+ds.add(1,4)
 
 ds.add(2,1)
 ds.add(2,2)

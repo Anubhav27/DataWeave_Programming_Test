@@ -1,3 +1,14 @@
+"""
+This is Question 2 of the assignment to compare files with entries and find the count of common entries
+
+solution:
+
+the program will read entries from 2 files namely file1.txt and file2.txt and will compare the entries and prints the results
+
+
+
+"""
+
 file1_content=[]
 file2_content=[]
 
